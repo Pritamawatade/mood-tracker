@@ -14,7 +14,7 @@ A simple yet powerful mood tracking application that helps users log and visuali
 
 ## Screenshots
 
-![Mood Selector Interface](path/to/mood-selector-screenshot.png)
+![Mood Selector Interface](/src/assets/)
 ![Mood Timeline View](path/to/mood-timeline-screenshot.png)
 ![Mood Calendar View](path/to/mood-calendar-screenshot.png)
 
@@ -39,7 +39,7 @@ Check out the live application [here](https://mood-tracker-app-demo.netlify.app)
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/mood-tracker-app.git
+git clone https://github.com/yourusername/mood-tracker.git
 cd mood-tracker-app
 ```
 
