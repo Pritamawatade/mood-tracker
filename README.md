@@ -88,14 +88,6 @@ The application uses browser's LocalStorage to persist mood data between session
 3. **Month View**: Shows moods from the past 30 days
 4. **Calendar View**: Visualizes moods in a monthly calendar format, allowing navigation between months
 
-## Future Enhancements
-
-- Add notes to mood entries
-- Export mood data as CSV/JSON
-- Statistical analysis of mood patterns
-- Customizable mood options
-- Dark mode support
-- Authentication for multi-device sync
 
 ## License
 
