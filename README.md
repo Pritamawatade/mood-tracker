@@ -14,9 +14,9 @@ A simple yet powerful mood tracking application that helps users log and visuali
 
 ## Screenshots
 
-![Mood Selector Interface](/src/assets/)
-![Mood Timeline View](path/to/mood-timeline-screenshot.png)
-![Mood Calendar View](path/to/mood-calendar-screenshot.png)
+![Mood Selector Interface](/src/assets/Screenshot%202025-03-19%20233232.png)
+![Mood Timeline View](/src/assets/Screenshot%202025-03-20%20180746.png)
+![Mood Calendar View](/src/assets/Screenshot%202025-03-20%20180753.png)
 
 ## Live Demo
 
