@@ -2,7 +2,7 @@ import { useMemo } from 'react';
 import './MoodTimeline.css';
 
 const MoodTimeline = ({ moods, view }) => {
-  // Function to get date from n days ago
+  // Function to get date from n days ago in YYYY-MM-DD format
   const getDateDaysAgo = (days) => {
     const date = new Date();
     date.setDate(date.getDate() - days);

@@ -33,9 +33,10 @@ const MoodCalendar = ({ moods }) => {
     // Last day of the month
     const lastDay = new Date(currentYear, currentMonth + 1, 0).getDate();
     
-    // Create map of moods by date
+    // Create map of moods by date using YYYY-MM-DD format
     const moodsByDate = {};
     moods.forEach(mood => {
+      // Ensure the key is the date in YYYY-MM-DD format
       moodsByDate[mood.date] = mood.emoji;
     });
     
@@ -49,17 +50,23 @@ const MoodCalendar = ({ moods }) => {
     
     // Add days of the month
     for (let day = 1; day <= lastDay; day++) {
+      // Create a date object for this day
       const date = new Date(currentYear, currentMonth, day);
+      
+      // Format the date as YYYY-MM-DD to match the storage format
       const dateString = date.toISOString().split('T')[0];
+      
+      // Get today's date for comparison
+      const now = new Date();
+      const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+      const isToday = date.getTime() === today.getTime();
+      
       days.push({
         day,
         date: dateString,
         mood: moodsByDate[dateString] || null,
         isCurrentMonth: true,
-        isToday: 
-          date.getDate() === new Date().getDate() &&
-          date.getMonth() === new Date().getMonth() &&
-          date.getFullYear() === new Date().getFullYear()
+        isToday
       });
     }
     
