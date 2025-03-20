@@ -100,8 +100,3 @@ The application uses browser's LocalStorage to persist mood data between session
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgments
-
-- Emoji artwork provided by [Twemoji](https://twemoji.twitter.com/)
-- Calendar implementation inspired by [React Calendar](https://github.com/wojtekmaj/react-calendar)
